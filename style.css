@@ -1,40 +1,47 @@
-body{
-    font-family: sans-serif;
-    margin: 0;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
-a{
-    text-decoration: none;
-    color: black;
-}
-.header{
-    background-color: #86D5D0;
-    min-height: 200px;
-    justify-content: space-evenly;
-    padding: 10px;
+
+#header{
+    height: 300px;
+    background-color: aquamarine;
+    align-items: baseline;
 
 }
-#logo-principal{
+
+
+nav{
+    
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+/*contenedor logo iz */
+#logoizquierda{
+    margin-top: 20px;
+
+}
+
+
+#logoizquierda-imagen{
     border-radius: 50%;
-    border: 5px solid #F16DC2;
-    height: 50%;
-    object-fit: contain;
 }
-.logo{
-    /*display: flex;
-    align-items: center;*/
+
+
+#logocentral{
+
 }
-.logo img{
+
+#logocentral-imagen{
     height: 150px;
-    margin-right: 10px;
 }
+
 
 #linksnav{
-    
-    font-weight: 600;
-    padding-right: 10px;
-    list-style: none;
-}
-ul li:hover{
-    color: white;
-}
+    justify-content: end;
 
+}
