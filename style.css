@@ -5,9 +5,10 @@
 }
 
 #header{
-    height: 300px;
+    height: auto;
     background-color: aquamarine;
     align-items: baseline;
+    padding-bottom: 20px;
 
 }
 
@@ -44,4 +45,10 @@ nav{
 #linksnav{
     justify-content: end;
 
+}
+ul {
+    list-style: none;
+}
+.nav-link{
+    
 }
