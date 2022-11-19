@@ -1,3 +1,10 @@
+:root{
+    --rosa-primario: rgb(225, 116,170);
+    --rosa-secundario: rgb(249, 213, 207);
+    --rosa-adicional: rgb(241, 109, 194);
+    --verde-primario: rgb(134, 213, 208);
+}
+
 *{
     margin: 0px;
     padding: 0px;
@@ -6,7 +13,7 @@
 
 #header{
     height: auto;
-    background-color: aquamarine;
+    background-color: var(--verde-primario);
     align-items: baseline;
     padding-bottom: 20px;
 
@@ -33,8 +40,15 @@ nav{
 }
 
 
-#logocentral{
-
+#logocentral ul li a{
+    color: white;
+}
+#logocentral ul li a:hover{
+    color: white;
+    background-color: var(--rosa-primario);
+    transition: 1.5s;
+    opacity: .75;
+    
 }
 
 #logocentral-imagen{
@@ -44,11 +58,20 @@ nav{
 
 #linksnav{
     justify-content: end;
+    align-content: space-around;
 
 }
 ul {
     list-style: none;
 }
-.nav-link{
-    
+.nav-link svg{
+    color: var(--rosa-primario);
+    padding: 5px;
+}
+.nav-link svg:hover{
+    color: var(--verde-primario);
+    background-color: var(--rosa-primario);
+    border-radius: 50%;
+    padding: 2px;
+    margin-right: 10px;
 }
