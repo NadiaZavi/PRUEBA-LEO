@@ -48,7 +48,7 @@ nav{
     background-color: var(--rosa-primario);
     transition: 1.5s;
     opacity: .75;
-    
+    border-radius: 20px;    
 }
 
 #logocentral-imagen{
@@ -74,4 +74,7 @@ ul {
     border-radius: 50%;
     padding: 2px;
     margin-right: 10px;
+}
+#carrusel{
+    margin: auto;
 }
