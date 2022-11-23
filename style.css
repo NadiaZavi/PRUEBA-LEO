@@ -83,6 +83,7 @@ ul {
 #footer{
     background-color: var(--verde-primario);
 }
+
 #footer ul li a, span {
     color: #fff;
 }
@@ -103,4 +104,10 @@ ul {
     background-color: var(--rosa-primario);
     border-radius: 50%;
     padding: 2px;
+}
+
+#icono-footer{
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
 }
