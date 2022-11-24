@@ -88,13 +88,6 @@ ul {
     color: #fff;
 }
 
-#footer-1 ul li a:hover{
-    color: #fff;
-    background-color: var(--rosa-primario);
-    transition: 1.5s;
-    opacity: .75;
-    border-radius: 20px;    
-}
 #footer-2 ul li svg{
     color: var(--rosa-primario);
 }
@@ -110,4 +103,8 @@ ul {
     width: 32px;
     border-radius: 50%;
     margin-right: 10px;
+}
+#boton-volver{
+    color: var(--verde-primario);
+    background-color: var(--rosa-primario);
 }
