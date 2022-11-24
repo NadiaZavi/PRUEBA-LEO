@@ -6,29 +6,41 @@
 }
 
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
+
+/*Estilos del header*/
+
+
 #header{
+    width: 100%;
     height: auto;
     background-color: var(--verde-primario);
     align-items: baseline;
-    padding-bottom: 20px;
+    padding: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    
 
 }
 
 
 nav{
-    
-    align-items: center;
+        align-items: center;
     justify-content: space-evenly;
 
 }
-
+#links{
+    height: 100px;
+    padding-top: 10px;
+}
 
 /*contenedor logo iz */
+
+
 #logoizquierda{
     margin-top: 20px;
 
@@ -48,15 +60,15 @@ nav{
     background-color: var(--rosa-primario);
     transition: 1.5s;
     opacity: .75;
-    
+    border-radius: 20px;    
 }
 
 #logocentral-imagen{
-    height: 150px;
+    max-height: 150px;
 }
 
 
-#linksnav{
+#redes{
     justify-content: end;
     align-content: space-around;
 
@@ -74,4 +86,64 @@ ul {
     border-radius: 50%;
     padding: 2px;
     margin-right: 10px;
+}
+.ocultarmobile{
+    margin: 0;
+    padding-left: auto;
+    padding-right: auto;
+    display: flex;
+    
+    }
+
+    .ocultarmobile:first-child{
+        margin: auto;
+    }
+@media screen and (max-width: 576px){
+    .ocultarmobile{
+        display: none;
+
+    }
+}
+#navhamburguer{
+    border-color: #86D5D0;
+}
+#logohamburguer{
+    height: 50px;
+    
+}
+
+/*Inicio estilos carousel*/
+#carrusel{
+    margin: auto;
+}
+
+/*Estilos footer*/
+
+#footer{
+    background-color: var(--verde-primario);
+}
+
+#footer ul li a, span {
+    color: #fff;
+}
+
+#footer-2 ul li svg{
+    color: var(--rosa-primario);
+}
+
+#footer-2 ul li svg:hover{
+    color: var(--verde-primario);
+    background-color: var(--rosa-primario);
+    border-radius: 50%;
+    padding: 2px;
+}
+
+#icono-footer{
+    width: 32px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+#boton-volver{
+    color: var(--verde-primario);
+    background-color: var(--rosa-primario);
 }
