@@ -11,7 +11,14 @@
     box-sizing: border-box;
 }
 
-
+h5{
+    color: #3a3a3a
+    
+}
+p{
+    color: #3a3a3a;
+    font-size: 1rem;
+}
 /*Estilos del header*/
 
 
@@ -113,6 +120,15 @@ ul {
 }
 
 /*Inicio estilos carousel*/
+
+.contenedor-fluido{
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-right: auto;
+    margin-left: auto;
+}
 #carrusel{
     margin: auto;
 }
