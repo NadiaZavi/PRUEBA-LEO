@@ -147,3 +147,13 @@ ul {
     color: var(--verde-primario);
     background-color: var(--rosa-primario);
 }
+#catalogo .btn{
+    background-color: var(--rosa-secundario);
+    border: 1px solid var(--rosa-adicional);
+    color: var(--rosa-adicional);
+}
+#catalogo .btn:hover{
+    background-color: var(--rosa-adicional);
+    border: 1px solid var(--rosa-secundario);
+    color: var(--rosa-secundario);
+}
